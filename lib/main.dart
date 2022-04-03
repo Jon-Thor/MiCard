@@ -16,14 +16,14 @@ class  MyApp extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 CircleAvatar(
-                  radius: 50,
+                  radius: 60,
                   backgroundImage: AssetImage("images/Denji.jpg"),
                 ),
                 Text
                   ("Jón Þór",
                   style: TextStyle(
                       fontFamily: "Pacifico",
-                      fontSize: 40,
+                      fontSize: 45,
                       color: Colors.white,
                       fontWeight: FontWeight.bold
                   ),
@@ -33,8 +33,8 @@ class  MyApp extends StatelessWidget {
                  style: TextStyle(
                  fontFamily: "SourceSansPro",
                    color: Colors.white,
-                   fontSize: 20,
-                   letterSpacing: 3,
+                   fontSize: 25,
+                   letterSpacing: 2.5,
                    fontWeight: FontWeight.bold,
                )
                ),
